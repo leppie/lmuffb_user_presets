@@ -72,7 +72,7 @@ slip_angle_smoothing = 9.999999747378752e-05
 [LoadForces]
 lat_load_effect = 0.6499999761581421
 lat_load_transform = 1
-long_load_effect = 0.4000000059604645
+long_load_effect = 0.3499999940395355
 long_load_smoothing = 0.02500000037252903
 long_load_transform = 0
 
@@ -92,9 +92,9 @@ sop_yaw_gain = 0.125
 unloaded_yaw_gain = 0.1246153861284256
 unloaded_yaw_gamma = 0.8999999761581421
 unloaded_yaw_punch = 0.07000000029802322
-unloaded_yaw_sens = 1.0
+unloaded_yaw_sens = 1.100000023841858
 unloaded_yaw_threshold = 0.0
-yaw_accel_smoothing = 0.0
+yaw_accel_smoothing = 0.0010000000474974513
 yaw_kick_threshold = 0.0
 
 [Safety]
