@@ -94,7 +94,7 @@ unloaded_yaw_gamma = 0.8999999761581421
 unloaded_yaw_punch = 0.07999999821186066
 unloaded_yaw_sens = 1.0
 unloaded_yaw_threshold = 0.0
-yaw_accel_smoothing = 0.0020000000949949026
+yaw_accel_smoothing = 0.0
 yaw_kick_threshold = 0.0
 
 [Safety]
