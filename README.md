@@ -11,4 +11,5 @@ in game 60% collision 5%. 440 steering.
 
 If effects are too 'violent', bump up inertia in pithouse. I use 150% by default.
 
-<img width="2138" height="1085" alt="image" src="https://gist.github.com/user-attachments/assets/3484ee97-21c6-46c7-9dc9-4e3c0b1db81f" />
+<img width="2138" height="1085" alt="image" src="https://github.com/user-attachments/assets/ce65fcef-d98c-448f-bb3d-151d348edc1c" />
+
