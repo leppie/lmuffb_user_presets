@@ -1,5 +1,5 @@
 # lmuffb_user_presets
-LMUFFB presets for Moza R3
+LMUFFB presets for Moza R3 (and R5)
 
 * lmp3
 * gt3-high 
