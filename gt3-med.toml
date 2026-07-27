@@ -25,7 +25,7 @@ lockup_bump_reject = 0.5
 lockup_enabled = true
 lockup_freq_scale = 1.090000033378601
 lockup_full_pct = 5.0
-lockup_gain = 0.5030769109725952
+lockup_gain = 0.7061538696289062
 lockup_gamma = 1.0
 lockup_prediction_sens = 10.0
 lockup_rear_boost = 2.0
@@ -60,7 +60,7 @@ target_rim_nm = 2.799999952316284
 wheelbase_max_nm = 4.699999809265137
 
 [GripEstimation]
-chassis_inertia_smoothing = 0.009999999776482582
+chassis_inertia_smoothing = 0.019999999552965164
 grip_smoothing_fast = 0.004999999888241291
 grip_smoothing_sensitivity = 0.10000000149011612
 grip_smoothing_steady = 0.029999999329447746
@@ -79,11 +79,11 @@ long_load_transform = 0
 [RearAxle]
 kerb_strike_rejection = 0.5
 oversteer_boost = 2.6973683834075928
-power_slip_threshold = 0.05010411888360977
+power_slip_threshold = 0.051141031086444855
 power_yaw_gain = 0.15000000596046448
 power_yaw_gamma = 1.0
 power_yaw_punch = 0.10000000149011612
-power_yaw_threshold = 0.0
+power_yaw_threshold = 0.009999999776482582
 rear_align_effect = 0.5
 sop_effect = 0.6499999761581421
 sop_scale = 0.009999999776482582
@@ -93,9 +93,9 @@ unloaded_yaw_gain = 0.1246153861284256
 unloaded_yaw_gamma = 0.8999999761581421
 unloaded_yaw_punch = 0.07999999821186066
 unloaded_yaw_sens = 1.100000023841858
-unloaded_yaw_threshold = 0.0
+unloaded_yaw_threshold = 0.009999999776482582
 yaw_accel_smoothing = 0.0010000000474974513
-yaw_kick_threshold = 0.0
+yaw_kick_threshold = 0.009999999776482582
 
 [Safety]
 gain_reduction = 0.30000001192092896
@@ -127,7 +127,7 @@ bottoming_enabled = true
 bottoming_gain = 0.25
 bottoming_method = 0
 road_enabled = true
-road_gain = 0.06499999761581421
+road_gain = 0.10000000149011612
 road_smoothing = 0.0
 scrub_drag_gain = 0.10000000149011612
 slide_damping = 0.05000000074505806
