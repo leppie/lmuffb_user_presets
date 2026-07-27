@@ -1,5 +1,5 @@
 app_version = '0.7.350'
-name = 'gt3-med'
+name = 'gt3'
 
 [Advanced]
 aux_telemetry_reconstruction = 0
@@ -60,7 +60,7 @@ target_rim_nm = 2.799999952316284
 wheelbase_max_nm = 4.699999809265137
 
 [GripEstimation]
-chassis_inertia_smoothing = 0.019999999552965164
+chassis_inertia_smoothing = 0.02500000037252903
 grip_smoothing_fast = 0.004999999888241291
 grip_smoothing_sensitivity = 0.10000000149011612
 grip_smoothing_steady = 0.029999999329447746
@@ -79,7 +79,7 @@ long_load_transform = 0
 [RearAxle]
 kerb_strike_rejection = 0.5
 oversteer_boost = 2.6973683834075928
-power_slip_threshold = 0.051141031086444855
+power_slip_threshold = 0.04812563955783844
 power_yaw_gain = 0.15000000596046448
 power_yaw_gamma = 1.0
 power_yaw_punch = 0.10000000149011612
@@ -90,11 +90,11 @@ sop_scale = 0.009999999776482582
 sop_smoothing_factor = 0.0
 sop_yaw_gain = 0.125
 unloaded_yaw_gain = 0.1246153861284256
-unloaded_yaw_gamma = 0.8999999761581421
+unloaded_yaw_gamma = 1.0
 unloaded_yaw_punch = 0.07999999821186066
-unloaded_yaw_sens = 1.100000023841858
+unloaded_yaw_sens = 1.5
 unloaded_yaw_threshold = 0.009999999776482582
-yaw_accel_smoothing = 0.0010000000474974513
+yaw_accel_smoothing = 0.0
 yaw_kick_threshold = 0.009999999776482582
 
 [Safety]
@@ -116,7 +116,7 @@ enabled = true
 g_slew_limit = 50.0
 max_threshold = -2.0
 min_threshold = -0.5
-sensitivity = 1.0
+sensitivity = 2.0
 sg_window = 15
 smoothing_tau = 0.05000000074505806
 torque_sensitivity = 0.5
