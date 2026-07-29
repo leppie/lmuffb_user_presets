@@ -25,11 +25,11 @@ lockup_bump_reject = 0.5
 lockup_enabled = true
 lockup_freq_scale = 1.090000033378601
 lockup_full_pct = 5.0
-lockup_gain = 0.7061538696289062
+lockup_gain = 0.800000011920929
 lockup_gamma = 1.0
 lockup_prediction_sens = 10.0
 lockup_rear_boost = 2.0
-lockup_start_pct = 2.0
+lockup_start_pct = 1.5
 
 [FrontAxle]
 center_fill_fade_end = 1.5
@@ -72,7 +72,7 @@ slip_angle_smoothing = 9.999999747378752e-05
 [LoadForces]
 lat_load_effect = 0.6499999761581421
 lat_load_transform = 1
-long_load_effect = 0.3499999940395355
+long_load_effect = 0.4000000059604645
 long_load_smoothing = 0.02500000037252903
 long_load_transform = 0
 
