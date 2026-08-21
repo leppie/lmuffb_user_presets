@@ -20,7 +20,7 @@ understeer_affects_sop = false
 abs_freq = 32.768001556396484
 abs_gain = 0.5
 abs_pulse_enabled = false
-brake_load_cap = 4.960000038146973
+brake_load_cap = 4.0
 lockup_bump_reject = 0.5
 lockup_enabled = true
 lockup_freq_scale = 1.090000033378601
@@ -79,13 +79,13 @@ long_load_transform = 0
 [RearAxle]
 kerb_strike_rejection = 0.5
 oversteer_boost = 2.6973683834075928
-power_slip_threshold = 0.050492316484451294
+power_slip_threshold = 0.0520000085234642
 power_yaw_gain = 0.15000000596046448
 power_yaw_gamma = 1.0
 power_yaw_punch = 0.03999999910593033
 power_yaw_threshold = 0.019999999552965164
-rear_align_effect = 0.5
-sop_effect = 0.800000011920929
+rear_align_effect = 0.555384635925293
+sop_effect = 0.7507692575454712
 sop_scale = 0.009999999776482582
 sop_smoothing_factor = 0.0
 sop_yaw_gain = 0.125
@@ -94,8 +94,8 @@ unloaded_yaw_gamma = 1.0
 unloaded_yaw_punch = 0.07999999821186066
 unloaded_yaw_sens = 2.0
 unloaded_yaw_threshold = 0.019999999552965164
-yaw_accel_smoothing = 0.0010000000474974513
-yaw_kick_threshold = 0.03999999910593033
+yaw_accel_smoothing = 0.0
+yaw_kick_threshold = 0.009999999776482582
 
 [Safety]
 gain_reduction = 0.30000001192092896
