@@ -1,9 +1,9 @@
-app_version = '0.7.355'
+app_version = '0.7.350'
 name = 'lmp3'
 
 [Advanced]
 aux_telemetry_reconstruction = 0
-gyro_gain = 0.10000000149011612
+gyro_gain = 0.0
 gyro_smoothing = 0.014999999664723873
 rest_api_enabled = false
 rest_api_port = 6397
@@ -20,7 +20,7 @@ understeer_affects_sop = false
 abs_freq = 32.768001556396484
 abs_gain = 0.5
 abs_pulse_enabled = false
-brake_load_cap = 3.0
+brake_load_cap = 4.989999771118164
 lockup_bump_reject = 0.5
 lockup_enabled = true
 lockup_freq_scale = 1.090000033378601
@@ -123,7 +123,7 @@ torque_sensitivity = 0.5
 use_torque = true
 
 [Vibration]
-bottoming_enabled = true
+bottoming_enabled = false
 bottoming_gain = 0.25
 bottoming_method = 0
 road_enabled = true
