@@ -117,13 +117,13 @@ g_slew_limit = 50.0
 max_threshold = -2.0
 min_threshold = -0.5
 sensitivity = 2.0
-sg_window = 15
+sg_window = 13
 smoothing_tau = 0.05000000074505806
 torque_sensitivity = 0.5
 use_torque = true
 
 [Vibration]
-bottoming_enabled = true
+bottoming_enabled = false
 bottoming_gain = 0.25
 bottoming_method = 0
 road_enabled = true
