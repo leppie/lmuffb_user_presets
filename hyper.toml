@@ -83,19 +83,19 @@ power_slip_threshold = 0.05221538245677948
 power_yaw_gain = 0.15000000596046448
 power_yaw_gamma = 1.0
 power_yaw_punch = 0.05000000074505806
-power_yaw_threshold = 0.009999999776482582
-rear_align_effect = 0.5
+power_yaw_threshold = 0.019999999552965164
+rear_align_effect = 0.20000000298023224
 sop_effect = 0.6499999761581421
-sop_scale = 0.009999999776482582
+sop_scale = 0.75
 sop_smoothing_factor = 0.0
 sop_yaw_gain = 0.11884615570306778
 unloaded_yaw_gain = 0.1246153861284256
 unloaded_yaw_gamma = 1.0
 unloaded_yaw_punch = 0.03999999910593033
 unloaded_yaw_sens = 2.0
-unloaded_yaw_threshold = 0.009999999776482582
-yaw_accel_smoothing = 0.0010000000474974513
-yaw_kick_threshold = 0.009999999776482582
+unloaded_yaw_threshold = 0.019999999552965164
+yaw_accel_smoothing = 0.0
+yaw_kick_threshold = 0.03999999910593033
 
 [Safety]
 gain_reduction = 0.30000001192092896
